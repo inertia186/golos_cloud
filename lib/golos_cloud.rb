@@ -1,0 +1,50 @@
+require "golos_cloud/version"
+
+# Top Level Models
+require "golos_cloud/models/sql_base"
+require "golos_cloud/models/account"
+require "golos_cloud/models/block"
+require "golos_cloud/models/comment"
+require "golos_cloud/models/connection"
+require "golos_cloud/models/token"
+require "golos_cloud/models/transaction"
+
+# Sub Level Models
+require "golos_cloud/models/tx/account_create"
+require "golos_cloud/models/tx/account_recover"
+require "golos_cloud/models/tx/account_witness_proxy"
+require "golos_cloud/models/tx/account_witness_vote"
+require "golos_cloud/models/tx/claim_reward_balance"
+require "golos_cloud/models/tx/comment"
+require "golos_cloud/models/tx/comments_option"
+require "golos_cloud/models/tx/convert"
+require "golos_cloud/models/tx/custom"
+require "golos_cloud/models/tx/delegate_vesting_share"
+require "golos_cloud/models/tx/delete_comment"
+require "golos_cloud/models/tx/escrow_approve"
+require "golos_cloud/models/tx/escrow_dispute"
+require "golos_cloud/models/tx/escrow_release"
+require "golos_cloud/models/tx/escrow_transfer"
+require "golos_cloud/models/tx/feed"
+require "golos_cloud/models/tx/limit_order"
+require "golos_cloud/models/tx/pow"
+require "golos_cloud/models/tx/transfer"
+require "golos_cloud/models/tx/vote"
+require "golos_cloud/models/tx/withdraw"
+require "golos_cloud/models/tx/withdraw_vesting_route"
+require "golos_cloud/models/tx/witness_update"
+
+require "golos_cloud/models/tx/custom/follow"
+require "golos_cloud/models/tx/custom/witness"
+require "golos_cloud/models/tx/custom/reblog"
+
+require "golos_cloud/models/vo/author_reward"
+require "golos_cloud/models/vo/curation_reward"
+require "golos_cloud/models/vo/fill_convert_request"
+require "golos_cloud/models/vo/fill_order"
+require "golos_cloud/models/vo/fill_vesting_withdraw"
+require "golos_cloud/models/vo/interest"
+require "golos_cloud/models/vo/shutdown_witness"
+
+module GolosCloud
+end

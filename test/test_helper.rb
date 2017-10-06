@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'steem_api'
+require 'golos_cloud'
 
 require 'minitest/autorun'

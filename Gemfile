@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in steem_api.gemspec
+# Specify your gem's dependencies in golos_cloud.gemspec
 gemspec

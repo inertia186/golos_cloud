@@ -10,5 +10,5 @@ end
 task :default => :test
 
 task :console do
-  exec "irb -r steem_api -I ./lib"
+  exec "irb -r golos_cloud -I ./lib"
 end
