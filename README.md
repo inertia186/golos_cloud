@@ -4,7 +4,7 @@
 
 ### How To Use (Rails 4+)
 - Add Gem to Gemfile
-	*	`gem 'golos_cloud', '~> 1.1'`
+	*	`gem 'golos_cloud', '~> 1.0'`
 - Bundle Install Gems
 	* `bundle install`
 
