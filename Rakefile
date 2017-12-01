@@ -173,7 +173,7 @@ namespace :crosscheck do
       from = powerdowns.pluck(:from_account).uniq.join(', ')
       puts "Powerdowns grouped by sum from #{from} ..."
       ap powerdowns.group(:to_account).
-        order('sum_try_parse_replace_withdrawn_vests_as_float').
+        order('sum_try_parse_replace_withdrawn_gests_as_float').
         sum("TRY_PARSE(REPLACE(withdrawn, ' GESTS', '') AS float)")
     end
   end
@@ -201,7 +201,7 @@ namespace :crosscheck do
       to = powerups.pluck(:to_account).uniq.join(', ')
       puts "Powerups grouped by sum to #{to} ..."
       ap powerups.group(:from_account).
-        order('sum_try_parse_replace_withdrawn_vests_as_float').
+        order('sum_try_parse_replace_withdrawn_gests_as_float').
         sum("TRY_PARSE(REPLACE(withdrawn, ' GESTS', '') AS float)")
     end
   end

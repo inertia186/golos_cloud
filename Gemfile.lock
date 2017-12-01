@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    golos_cloud (1.0.0alpha)
+    golos_cloud (1.0.0)
       activerecord (>= 4, < 6)
       activerecord-sqlserver-adapter (>= 4, < 6)
       nokogiri (~> 1.8)
@@ -26,6 +26,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
+    awesome_print (1.8.0)
     concurrent-ruby (1.0.5)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
@@ -41,6 +42,7 @@ GEM
     netrc (0.11.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    rake (12.3.0)
     rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -58,7 +60,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print (~> 1.7, >= 1.7.0)
+  bundler (~> 1.15, >= 1.15.4)
   golos_cloud!
+  rake (~> 12.1, >= 12.1.0)
 
 BUNDLED WITH
    1.16.0.pre.3
