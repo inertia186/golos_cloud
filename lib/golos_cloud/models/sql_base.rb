@@ -5,9 +5,9 @@ module GolosCloud
 
     establish_connection({
       adapter: "sqlserver",
-      host: "sql.golos.cloud",
-      username: "golos",
-      password: "golos",
+      host: ENV['GOLOSCLOUD_HOST'] || 'api.golos.cloud',
+      username: ENV['GOLOSCLOUD_USERNAME'] || 'golos',
+      password: ENV['GOLOSCLOUD_PASSWORD'] || 'golos',
       timeout: 60
     })
 

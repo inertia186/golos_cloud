@@ -7,9 +7,16 @@
 	*	`gem 'golos_cloud', '~> 1.0'`
 - Bundle Install Gems
 	* `bundle install`
+  
+### How to Subscribe
+
+As of 2018-01-23, [SteemSQL is moving to a monthly subscription model](https://steemit.com/steemsql/@arcange/steemsql-is-moving-to-a-monthly-subscription-model).  To use this gem, you must subscribe to @steemsql and store the credentials as environment variables.
 
 ### How To Use (Standalone)
 - `gem install golos_cloud`
+- export GOLOSCLOUD_HOST=<your steemsql host>
+- export GOLOSCLOUD_USERNAME=<your steemsql username>
+- export GOLOSCLOUD_PASSWORD=<your steemsql password>
 - `irb`
 - `require 'golos_cloud'`
 - `GolosCloud::Comment.last`

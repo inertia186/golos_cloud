@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    golos_cloud (1.0.0)
+    golos_cloud (1.1.1rc1)
       activerecord (>= 4, < 6)
       activerecord-sqlserver-adapter (>= 4, < 6)
       nokogiri (~> 1.8)
@@ -17,7 +17,7 @@ GEM
       activemodel (= 5.1.4)
       activesupport (= 5.1.4)
       arel (~> 8.0)
-    activerecord-sqlserver-adapter (5.1.2)
+    activerecord-sqlserver-adapter (5.1.6)
       activerecord (~> 5.1.0)
       tiny_tds
     activesupport (5.1.4)
@@ -32,13 +32,13 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (0.9.1)
+    i18n (0.9.3)
       concurrent-ruby (~> 1.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.3.0)
-    minitest (5.10.3)
+    minitest (5.11.2)
     netrc (0.11.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
