@@ -10,7 +10,7 @@
   
 ### How to Subscribe
 
-As of 2018-01-23, [SteemSQL is moving to a monthly subscription model](https://steemit.com/steemsql/@arcange/steemsql-is-moving-to-a-monthly-subscription-model).  To use this gem, you must subscribe to @steemsql and store the credentials as environment variables.
+As of 2018-01-23, [GolosSQL switches to subscription model](https://golos.io/golossql/@arcange/golossql-perekhodit-na-model-podpiski).  To use this gem, you must subscribe to @golossql and store the credentials as environment variables.
 
 ### How To Use (Standalone)
 - `gem install golos_cloud`
