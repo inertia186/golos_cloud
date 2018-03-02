@@ -44,6 +44,7 @@ require "golos_cloud/models/vo/fill_convert_request"
 require "golos_cloud/models/vo/fill_order"
 require "golos_cloud/models/vo/fill_vesting_withdraw"
 require "golos_cloud/models/vo/interest"
+require "golos_cloud/models/vo/producer_reward"
 require "golos_cloud/models/vo/shutdown_witness"
 
 module GolosCloud
