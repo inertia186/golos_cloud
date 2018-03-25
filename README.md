@@ -14,9 +14,9 @@ As of 2018-01-23, [GolosSQL switches to subscription model](https://golos.io/gol
 
 ### How To Use (Standalone)
 - `gem install golos_cloud`
-- export GOLOSCLOUD_HOST=<your steemsql host>
-- export GOLOSCLOUD_USERNAME=<your steemsql username>
-- export GOLOSCLOUD_PASSWORD=<your steemsql password>
+- `export GOLOSCLOUD_HOST=<your steemsql host>``
+- `export GOLOSCLOUD_USERNAME=<your steemsql username>`
+- `export GOLOSCLOUD_PASSWORD=<your steemsql password>`
 - `irb`
 - `require 'golos_cloud'`
 - `GolosCloud::Comment.last`
